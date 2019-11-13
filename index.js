@@ -10,7 +10,7 @@ var SIGNATURE_METHOD = 'HmacSHA256'
 var SIGNATURE_VERSION = '2'
 var SIGNATURE_TTL = 150 * 1000
 var VERSION = '2012-11-05'
-var DEFAULT_REGION = 'us-east-1'
+var DEFAULT_REGION = 'eu-central-1'
 
 var text = function (xml, tag) {
   var i = xml.indexOf('<' + tag + '>')
