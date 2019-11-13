@@ -1,15 +1,15 @@
 var request = require('request')
-var crypto = require('crypto')
+// var crypto = require('crypto')
 var qs = require('querystring')
 var http = require('http')
 var https = require('https')
 var events = require('events')
-var aws4 = require('aws4')
+// var aws4 = require('aws4')
 
-var SIGNATURE_METHOD = 'HmacSHA256'
-var SIGNATURE_VERSION = '2'
-var SIGNATURE_TTL = 150 * 1000
-var VERSION = '2012-11-05'
+// var SIGNATURE_METHOD = 'HmacSHA256'
+// var SIGNATURE_VERSION = '2'
+// var SIGNATURE_TTL = 150 * 1000
+// var VERSION = '2012-11-05'
 var DEFAULT_REGION = 'eu-central-1'
 
 var text = function (xml, tag) {
